@@ -25,15 +25,14 @@ python -m pip install -r requirements.txt
 If this repository is useful in your research, please cite:
 
 ```bibtex
-@article{li2026nucleus,
-  title         = {Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution},
-  author        = {Li, Shuhao and Ye, Fanghua and Lin, Wanyu and Yuan, Tianyu and Shen, Xiaoyu},
-  journal       = {arXiv preprint arXiv:2610.07822},
-  year          = {2026},
-  eprint        = {2610.07822},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CL},
-  url           = {https://arxiv.org/abs/2610.07822}
+@misc{li2026nucleusspeculativedecodingplausibilityaware,
+      title={Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution}, 
+      author={Shuhao Li and Fanghua Ye and Wanyu Lin and Tianyu Yuan and Xiaoyu Shen},
+      year={2026},
+      eprint={2610.07822},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2610.07822}, 
 }
 ```
 
