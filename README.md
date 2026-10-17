@@ -2,6 +2,8 @@
 
 Official reproduction code for **Nucleus Speculative Decoding (NSD): Plausibility-Aware Verification Beyond Exact Distribution**.
 
+Paper: [arXiv:2610.07822](https://arxiv.org/abs/2610.07822)
+
 NSD extends standard speculative decoding with a target-nucleus rescue rule. A draft token is accepted when it passes the standard stochastic acceptance test or belongs to the target model's nucleus. The implementation reuses probabilities computed during target verification and does not require another target-model forward pass.
 
 This artifact reproduces the Nemotron-14B, seed-22 experiment with:
@@ -121,11 +123,15 @@ This file collects accuracy, throughput, and mean acceptance length across metho
 If this repository is useful in your research, please cite:
 
 ```bibtex
-@inproceedings{anonymous2027nucleus,
-  title     = {Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution},
-  author    = {Anonymous Authors},
-  booktitle = {International Conference on Learning Representations},
-  year      = {2027}
+@article{li2026nucleus,
+  title         = {Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution},
+  author        = {Li, Shuhao and Ye, Fanghua and Lin, Wanyu and Yuan, Tianyu and Shen, Xiaoyu},
+  journal       = {arXiv preprint arXiv:2610.07822},
+  year          = {2026},
+  eprint        = {2610.07822},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2610.07822}
 }
 ```
 
